@@ -8,7 +8,7 @@ const {
 
 const routes = [
   {
-    method: 'POST',
+    method: 'GET',
     path: '/',
     handler: () => ({ success: true, data: { message: 'Hello kmau' } }),
   },
