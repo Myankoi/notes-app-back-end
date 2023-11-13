@@ -9,6 +9,11 @@ const {
 const routes = [
   {
     method: 'POST',
+    path: '/',
+    handler: () => ({ success: true, data: { message: 'Hello kmau' } }),
+  },
+  {
+    method: 'POST',
     path: '/notes',
     handler: addNoteHandler,
   },
